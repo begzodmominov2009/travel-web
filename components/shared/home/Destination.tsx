@@ -4,10 +4,9 @@ import React from 'react'
 const Destination = () => {
   return (
     <Containers>
-      <div className="w-[300px] rounded-[22px] bg-white shadow-[0_6px_20px_rgba(0,0,0,0.08)] p-[10px]">
+      <div className="w-[300px] rounded-[22px] bg-white shadow-[0_6px_20px_rgba(0,0,0,0.08)] p-[7px]">
 
-        
-        <div className="overflow-hidden rounded-[16px]">
+        <div className="overflow-hidden rounded-[15px]">
           <img
             src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34"
             className="w-full h-[180px] object-cover"
@@ -31,7 +30,7 @@ const Destination = () => {
             </span>
 
             <button
-              className="px-[18px] py-[8px] text-[14px] font-semibold text-white rounded-full bg-gradient-to-r from-orange-500 to-pink-500 hover:opacity-90 transition"
+              className="px-[18px] py-[8px] cursor-pointer text-[14px] font-semibold text-white rounded-full bg-gradient-to-r from-orange-500 to-pink-500 hover:opacity-90 transition"
             >
               Find hotels
             </button>
