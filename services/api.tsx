@@ -1,4 +1,3 @@
-import React from "react";
 const base_url = process.env.NEXT_PUBLIC_URL;
 
 const getData = async ({ url }: { url: string }) => {
