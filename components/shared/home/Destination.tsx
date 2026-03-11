@@ -6,7 +6,7 @@ const Destination = () => {
     <Containers>
       <div className="w-[300px] rounded-[22px] bg-white shadow-[0_6px_20px_rgba(0,0,0,0.08)] p-[7px]">
 
-        <div className="overflow-hidden rounded-[15px]">
+        <div className="overflow-hidden rounded-[16px]">
           <img
             src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34"
             className="w-full h-[180px] object-cover"
