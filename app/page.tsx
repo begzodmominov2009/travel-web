@@ -7,15 +7,16 @@ import Partners from "@/components/shared/home/Partners";
 import Tour from "@/components/shared/home/Tour";
 import Containers from "@/components/ui/Containers";
 import getData from "@/services/api";
+import { TourType } from "@/types/TourType";
 import React, { Fragment } from "react";
 
 const page = async () => {
-  const res = await getData({ url: "destination" });
+  const res:TourType[] = await getData({ url: "tour" });
   console.log(res);
 
   return (
     <Fragment>
-      <Hero />
+      <Hero res={res} />
       <Partners />
       <Destination />
       <Banner />
